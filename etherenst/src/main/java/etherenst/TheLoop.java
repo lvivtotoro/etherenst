@@ -11,7 +11,7 @@ public class TheLoop implements Runnable {
 
 	public static long TICK_RATE = 1000 / 30;
 
-	private JORts os;
+	private EtherenST os;
 
 	Debug debug;
 
@@ -19,7 +19,7 @@ public class TheLoop implements Runnable {
 
 	ArrayList<Job> scheduled = new ArrayList<Job>(32);
 
-	TheLoop(JORts os) {
+	TheLoop(EtherenST os) {
 		this.os = os;
 
 		// begin the loop

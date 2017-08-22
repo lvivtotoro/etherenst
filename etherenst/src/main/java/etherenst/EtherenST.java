@@ -5,7 +5,7 @@ import java.util.HashMap;
 import etherenst.conn.Connector;
 import etherenst.debg.Debug;
 
-public class JORts {
+public class EtherenST {
 
 	@SuppressWarnings("unused")
 	private HashMap<Integer, UnitType> units = new HashMap<>();
@@ -16,11 +16,11 @@ public class JORts {
 
 	private final TheLoop loop;
 
-	public JORts(Connector connector) {
+	public EtherenST(Connector connector) {
 		this(connector, 1);
 	}
 
-	public JORts(Connector connector, int sessions) {
+	public EtherenST(Connector connector, int sessions) {
 		this.realms = new Realm[sessions];
 		for (int i = 0; i < realms.length; i++)
 			this.realms[i] = new Realm();

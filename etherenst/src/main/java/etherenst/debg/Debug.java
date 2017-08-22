@@ -1,12 +1,12 @@
 package etherenst.debg;
 
-import etherenst.JORts;
+import etherenst.EtherenST;
 
 public abstract class Debug {
 	
-	protected final JORts os;
+	protected final EtherenST os;
 	
-	public Debug(JORts os) {
+	public Debug(EtherenST os) {
 		this.os = os;
 		this.os.debugger(this);
 	}

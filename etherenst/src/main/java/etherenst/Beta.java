@@ -4,8 +4,8 @@ import etherenst.conn.Connector;
 
 public class Beta {
 
-	public static JORts multiSessionGame(Connector connector, int sessions) {
-		return new JORts(connector, sessions);
+	public static EtherenST multiSessionGame(Connector connector, int sessions) {
+		return new EtherenST(connector, sessions);
 	}
 
 }

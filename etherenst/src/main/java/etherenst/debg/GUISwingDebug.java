@@ -8,7 +8,7 @@ import java.awt.Graphics2D;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import etherenst.JORts;
+import etherenst.EtherenST;
 import etherenst.Realm;
 import etherenst.Unit;
 import etherenst.math.AABB;
@@ -20,7 +20,7 @@ public class GUISwingDebug extends Debug {
 
 	private int session = 0;
 
-	public GUISwingDebug(JORts os) {
+	public GUISwingDebug(EtherenST os) {
 		super(os);
 		frame.setSize(640, 360);
 		frame.setLocationRelativeTo(null);
